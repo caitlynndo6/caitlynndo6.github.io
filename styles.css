@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "MorningBreeze";
+  src: url("./MorningBreeze-w19VZ.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -75,7 +82,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "MorningBreeze", sans-serif;
   background-color: #ffffff;
   color: #000000;
   text-align: center;
