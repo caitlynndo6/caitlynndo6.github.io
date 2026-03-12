@@ -43,6 +43,7 @@
 
 .logo {
   font-weight: bold;
+  font-family: "MorningBreeze", sans-serif;
   font-size: 1.2rem;
   color: #000000;
 }
@@ -82,7 +83,7 @@
 
 body {
   margin: 0;
-  font-family: "MorningBreeze", sans-serif;
+  font-family: poppins, sans-serif;
   background-color: #ffffff;
   color: #000000;
   text-align: center;
