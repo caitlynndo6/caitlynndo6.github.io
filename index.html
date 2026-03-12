@@ -1,46 +1,169 @@
 <!doctype html>
 <html>
-  
-  <head>
-    <title>Caitlyn Do Portfolio</title>
-  </head>
-  
-  <body>
 
-    <section id="header">
-      <div class="name">
-          <h1>Caitlyn Do</h1>
-          <p class="tag">Computer Engineering Student at California Polytechnic State University | Embedded Systems and Software Development</p>
+<head>
+  <title>Caitlyn Do Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      padding-top: 80px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ffffff;
+      border-bottom: 1px solid #000000;
+      z-index: 1000;
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+
+    .branding {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .name {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    .tag {
+      font-weight: 400;
+      font-size: 0.85rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 0.9rem;
+      transition: opacity 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      opacity: 0.6;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .project_boxs {
+      padding: 20px;
+      border: 1px solid #000000;
+      border-radius: 8px;
+      min-height: 150px;
+    }
+
+    @media (max-width: 768px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-links {
+        gap: 15px;
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="branding">
+        <div class="name">Caitlyn Do</div>
+        <div class="tag">Computer Engineering Student at California Polytechnic State University | Embedded Systems and Software Development</div>
       </div>
- 
-      <nav class="navbar">
-          <a href="#header">Header</a>
-          <a href="#projects">Projects</a>
-          <a href="#about">About Me</a>
-          <a href="#resume">Resume</a>
-          <a href="#contact">Contact</a>
-      </nav>
-    </section>
 
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-    
-    <section id="about">
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="projects">
+        <div class="project_boxs">Project 1</div>
+        <div class="project_boxs">Project 2</div>
+        <div class="project_boxs">Project 3</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
       <h2>About</h2>
       <p>
-        Full-time, ambitious computer engineering major with experience in 
-        computer-integrated manufacturing and design. Seeking hands-on training 
-        internships in the computer engineering field to apply critical thinking 
-        and teamwork skills in a professional setting and enhance practical knowledge. 
-        Eager to capitalize on developing skills to make a positive contribution 
+        Full-time, ambitious computer engineering major with experience in
+        computer-integrated manufacturing and design. Seeking hands-on training
+        internships in the computer engineering field to apply critical thinking
+        and teamwork skills in a professional setting and enhance practical knowledge.
+        Eager to capitalize on developing skills to make a positive contribution
         to the company and team.
       </p>
-    </section>
-    
-    <section id="contact">
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>Add your resume PDF link here.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
       <h2>Contact</h2>
       <p>Email: caitlynndo6@gmail.com</p>
-    </section>
+    </div>
+  </section>
 
-  </body>
+</body>
+
 </html>
-
