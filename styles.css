@@ -8,6 +8,7 @@
       background-color: #ffffff;
       color: #000000;
       padding-top: 110px;
+      scroll-margin-top: 110px;
     }
 
     .container {
@@ -20,7 +21,6 @@
         position: fixed;
         top: 0;
         width: 100%;
-        height: 40px;
         background-color: #ffffff;
         border-bottom: 1px solid #000000;
         z-index: 1000;
