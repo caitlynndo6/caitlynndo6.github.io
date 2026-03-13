@@ -16,22 +16,21 @@
       padding: 0 20px;
     }
 
-    .navbar {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: #ffffff;
-      border-bottom: 1px solid #000000;
-      z-index: 1000;
-    }
-
-    .nav-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 70px;
-      padding: 25px 0;
-    }
+      .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 1px solid #000000;
+        z-index: 1000;
+      }
+      
+      .nav-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+      }
 
     .branding {
       display: flex;
