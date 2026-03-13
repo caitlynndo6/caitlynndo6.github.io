@@ -34,7 +34,7 @@ html {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 0;
+        padding: 30px 30px;
       }
 
     .branding {
@@ -45,6 +45,7 @@ html {
     .name {
       font-weight: 600;
       font-size: 1.2rem;
+      margin-bottom: 0.5rem;
     }
 
     .tag {
